@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+venv
+
+# testing
+/coverage
+
+# production
+/dist
+
+# misc
+.DS_Store
+.env.*
+*.env
+
+!.env.sample
+!.env.stg
+!.env.dev
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+packagehash.txt
+
+# cypress
+cypress/videos
+cypress/screenshots
+
+storybook-static
+
+tsconfig.tsbuildinfo
+
+lhreport.html
+
+firebase-debug.log
